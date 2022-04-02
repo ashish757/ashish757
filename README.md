@@ -1,7 +1,7 @@
 # "Atwood's Law: Any application that can be written in JavaScript, will eventually be written in JavaScript."
 - 👋 Hi, I’m Ashish
 - 👀 I’m interested in Android Dev at least for now.. ✔
-- 🌱 I’m currently learning MERN 😉
+- 🌱 I’m currently learning Next.js 😉
 - 📫 How to reach me => IG => [@_ashish.rs](https://www.instagram.com/_ashish.rs/)
 
 <!---
