@@ -34,8 +34,21 @@
 ## ✨ Fun Facts
 
 - 🔭 I love contributing to open source projects
-- 🌱 Always curious about new
+- 🌱 Always curious about new tech
+- 🧩 Problem solving is my jam
+- 🎮 Gamer in free time
 
+---
+
+## 📫 Let's Connect
+<!--
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourusername)
+[![Twitter](https://img.shields.io/badge/-Twitter-blue?style=flat-square&logo=twitter)](https://twitter.com/yourusername) -->
+[![Instagram](https://img.shields.io/badge/-Instagram-purple?style=flat-square&logo=instagram)](https://instagram.com/ashishh.raj.singh)
+
+---
+
+⭐️ From [ashish757](https://github.com/ashish757)
 
 <!---
 - 👋 Hi, It's Ashish. here
