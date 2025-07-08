@@ -1,6 +1,6 @@
 # Hi there👋, I'm Ashish
 
-![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=blue)
+![Profile Views](https://komarev.com/ghpvc/?username=ashish757&color=blue)
 
 <!--
 ## 🚀 About Me
@@ -20,15 +20,14 @@
 ![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js)
 ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)
-![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 
 ---
 
 ## 📊 GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide=prs)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=ashish757&show_icons=true&theme=radical&hide=prs)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ashish757&layout=compact&theme=radical)
 
 ---
 
