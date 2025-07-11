@@ -19,7 +19,8 @@
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js)
 ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python)
-![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)
+![Java](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=java)
+![C++](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=cpp)
 
 ---
 
