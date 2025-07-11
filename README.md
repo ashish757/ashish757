@@ -19,15 +19,14 @@
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js)
 ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python)
+![C++](https://img.shields.io/badge/-C++-black?style=flat-square&logo=C++)
 ![Java](https://img.shields.io/badge/-Java-black?style=flat-square&logo=java)
-![C++](https://img.shields.io/badge/-C++-black?style=flat-square&logo=cpp)
 
 ---
 
 ## 📊 GitHub Stats
 
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=ashish757&show_icons=true&theme=radical&hide=prs)
-
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ashish757&layout=compact&theme=radical)
 
 ---
