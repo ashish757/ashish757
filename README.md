@@ -19,7 +19,7 @@
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js)
 ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python)
-![C++](https://img.shields.io/badge/-C++-black?style=flat-square&logo=C++)
+![C++]([https://img.shields.io/badge/-C++-black?style=flat-square&logo=C++](https://logotyp.us/file/c-plus-plus.svg))
 ![Java](https://img.shields.io/badge/-Java-black?style=flat-square&logo=java)
 
 ---
