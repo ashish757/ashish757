@@ -31,7 +31,7 @@
 
 --->
 
-## ✨ Fun Facts
+## ✨ 
 
 - 🔭 I love contributing to open source projects
 - 🌱 Always curious about new tech
