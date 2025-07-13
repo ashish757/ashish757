@@ -12,7 +12,7 @@
 🌐 Portfolio: [Link to your portfolio or blog]/
 
 -->
-
+<!--
 ## 🛠️ Languages and Tools
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
@@ -29,7 +29,7 @@
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=ashish757&show_icons=true&theme=radical&hide=prs)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ashish757&layout=compact&theme=radical)
 
----
+--->
 
 ## ✨ Fun Facts
 
@@ -41,12 +41,10 @@
 ---
 
 ## 📫 Let's Connect
-<!--
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourusername)
-[![Twitter](https://img.shields.io/badge/-Twitter-blue?style=flat-square&logo=twitter)](https://twitter.com/yourusername) -->
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/ashish757)
+[![Twitter](https://img.shields.io/badge/-Twitter-blue?style=flat-square&logo=twitter)](https://twitter.com/ashish757) -->
 [![Instagram](https://img.shields.io/badge/-Instagram-purple?style=flat-square&logo=instagram)](https://instagram.com/ashishh.raj.singh)
 
----
 
 ⭐️ From [ashish757](https://github.com/ashish757)
 
