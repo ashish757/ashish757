@@ -329,6 +329,9 @@
         <mxCell id="X8t4k1onN2h0A209ZfBv-78" value="Request Consultation" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="7200" y="2610" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="X8t4k1onN2h0A209ZfBv-148" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="X8t4k1onN2h0A209ZfBv-80" target="X8t4k1onN2h0A209ZfBv-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="X8t4k1onN2h0A209ZfBv-80" value="Upcoming consultations" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="6752.75" y="2600" width="170" height="30" as="geometry" />
         </mxCell>
@@ -409,6 +412,15 @@
         </mxCell>
         <mxCell id="X8t4k1onN2h0A209ZfBv-126" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Symptom Checker&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5682.5" y="2360" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X8t4k1onN2h0A209ZfBv-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X8t4k1onN2h0A209ZfBv-147" target="X8t4k1onN2h0A209ZfBv-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8t4k1onN2h0A209ZfBv-147" value="start consultation" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="6970" y="2540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X8t4k1onN2h0A209ZfBv-151" value="video call using zoom SDK" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="7145" y="2540" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
