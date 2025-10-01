@@ -31,8 +31,6 @@
 
 --->
 
-## ✨ 
-
 - 🔭 I love contributing to open source projects
 - 🌱 Always curious about new tech
 - 🧩 Problem solving is my jam
@@ -41,7 +39,7 @@
 
 
 
-⭐️ From [ashish757](https://github.com/ashish757)
+[ashish757](https://github.com/ashish757)
 
 <!---
 - 👋 Hi, It's Ashish. here
