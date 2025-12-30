@@ -1,0 +1,213 @@
+.layer-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5vh;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+}
+
+.project-container {
+    width: 90%;
+    max-width: 1200px;
+    background: var(--slot-bg);
+    border-radius: 24px;
+    padding: 3rem;
+    border: 1px solid var(--nav-border);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    margin-bottom: 2rem;
+}
+
+.section-header {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.header-line {
+    width: 60px;
+    height: 4px;
+    background: var(--accent-color);
+    border-radius: 2px;
+}
+
+.single-project-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-info h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.project-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.tech-stack span {
+    padding: 0.5rem 1rem;
+    background: rgba(12, 79, 222, 0.188);
+    color: var(--accent-color);
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid rgba(12, 79, 222, 0.411);
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 8px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    background: rgba(37, 99, 235, 0.05);
+}
+
+.btn-link:hover {
+    background: var(--accent-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.cards-scroll-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 100%;
+    align-items: center;
+    /* Will be transformed via JS */
+}
+
+.single-project-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    height: fit-content;
+}
+
+.project-gallery img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+    cursor: -webkit-zoom-in;
+    border: 1px solid var(--nav-border);
+}
+
+.project-gallery img:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+#img-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 3rem;
+}
+
+#img-modal.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1000;
+}
+
+#img-modal img {
+    cursor: zoom-out;
+    width: 70vw;
+}
+
+
+@media (max-width: 1024px) {
+    .single-project-layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .project-gallery img {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-container {
+        padding: 1.5rem;
+        width: 95%;
+    }
+    
+    .project-info h3 {
+        font-size: 2rem;
+    }
+    
+    .project-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .project-gallery img {
+        height: 80px;
+        max-height: none;
+    }
+    #img-modal img {
+        width: 100vw;
+    }
+}
