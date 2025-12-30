@@ -6,8 +6,8 @@ const isMobile = window.innerWidth <= 768;
 
 // Scroll Phases (in pixels)
 const SCROLL_PHASE_1_END = 250;
-const SCROLL_PHASE_2_END = 2500;
-const SCROLL_PHASE_3_REVEAL_END = 2700;
+const SCROLL_PHASE_2_END = 2700;
+const SCROLL_PHASE_3_REVEAL_END = 2900;
 
 // Project Section Animation Thresholds (0.0 to 1.0 relative to Phase 2 duration)
 const PROJECT_ENTRY_THRESHOLD = 0.15;
@@ -19,7 +19,7 @@ const PROJECT_EXIT_DURATION = 1.0 - PROJECT_EXIT_THRESHOLD;
 
 // Project Visual Constants
 const PROJECT_INITIAL_OFFSET_VH = 100;
-const PROJECT_FINAL_SCROLL_VH = isMobile ? -180 : -130;
+const PROJECT_FINAL_SCROLL_VH = isMobile ? -360 : -150;
 
 // Contact Section
 const CONTACT_REVEAL_SCROLL_DISTANCE = isMobile ? 150 : 100;

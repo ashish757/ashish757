@@ -6,7 +6,6 @@ main {
     min-height: 100vh;
     padding: 0 2rem;
     overflow: hidden;
-    text-align: center;
     position: relative;
 }
 
@@ -35,7 +34,7 @@ main {
     color: var(--text-primary);
 }
 
-.sub-text {
+.info .sub-text {
     font-size: 1.8rem;
     color: var(--text-secondary);
     margin-bottom: 1.5rem;
@@ -122,11 +121,6 @@ main {
         margin-bottom: 1rem;
     }
     
-    .sub-text {
-        font-size: 1.3rem;
-        line-height: 1.4;
-        margin-bottom: 1.5rem;
-    }
 
     .description {
         font-size: 1rem;

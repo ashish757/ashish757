@@ -37,6 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectsMenu = document.querySelector('.nav-link .item-projects');
     const blobSlider = document.querySelector('.blob-slider');
 
+    const bgGrid = document.querySelectorAll('.bg-grid');
+
     // Adjust scroll spacer height based on animation constants
     const scrollSpacer = document.querySelector('.scroll-spacer');
     if (scrollSpacer) {
@@ -73,6 +75,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // Phase 2 (250-1500px): Projects Placeholder Fades In/Out
             // Phase 3 (1500px+): Grid Expands, Contact Grid Reveals
 
+            const bgSizex = 0 + (scrollY * 0.02) -1;
+            const bgSizey = 0 + (scrollY * 0.02) -2;
+            console.log("BG SIZES ", bgSizex, bgSizey); 
+
             const phase1 = SCROLL_PHASE_1_END;
             const phase2 = SCROLL_PHASE_2_END; 
             const phase3RevealEnd = SCROLL_PHASE_3_REVEAL_END; 
@@ -108,6 +114,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 homeMenu.classList.remove('active');
                 projectsMenu.classList.add('active');
                 contactMenu.classList.remove('active');
+
+                bgGrid.forEach(grid => {
+                    grid.style.backgroundSize = `${bgSizex}px ${bgSizey}px`;
+                });
 
                 blobScale = BLOB_SCALE_PHASE_2;
                 blobFilter = `brightness(1.1) drop-shadow(0 0 ${BLOB_DROP_SHADOW_INTENSITY * ((scrollY - phase1)/BLOB_DROP_SHADOW_SCROLL_FACTOR)}px rgba(37, 99, 235, 0.3))`;
@@ -271,13 +281,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-const img = document.querySelectorAll('.project-gallery img');
+const img = document.querySelectorAll('.project-gallery img, .header-gallery img');
 const modal = document.querySelector('#img-modal');
 const modalImg = modal.querySelector('img');
 
 // Helper to close modal
 const closeModal = () => {
     modal.classList.remove('active');
+    modalImg.classList.remove('mobile'); // Reset classes
     document.body.style.overflow = ''; // Restore scrolling
 };
 
@@ -285,6 +296,10 @@ img.forEach((image) => {
     image.addEventListener('click', () => {
         const src = image.getAttribute('src');
         modalImg.setAttribute('src', src);
+        // modalImg.className = 'mobile'; // Reset classes
+        if(image.classList.contains('mobile')){
+            modalImg.classList.add('mobile');
+        }
         modal.classList.add('active');
         document.body.style.overflow = 'hidden'; // Block scrolling
     });
@@ -292,9 +307,7 @@ img.forEach((image) => {
 
 // Close when clicking outside the image
 modal.addEventListener('click', (e) => {
-    if (e.target === modal) {
         closeModal();
-    }
 });
 
 // Close on Escape key

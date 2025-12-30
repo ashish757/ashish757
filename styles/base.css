@@ -2,7 +2,7 @@
     /* Colors */
     --bg-color: #ffffff;
     --text-primary: #1a1a1a;
-    --text-secondary: #4a4a4a;
+    --text-secondary: #555555;
     --text-tertiary: #666666;
     --accent-color: #2563eb;
     --accent-hover: #1d4ed8;
@@ -17,6 +17,7 @@
     --slot-hover-bg: #ffffff;
     --slot-center-hover-bg: rgba(37, 99, 235, 0.4);
     --interactive-cell-hover: rgba(37, 99, 235, 0.1);
+    --bg-grid: #08022526;
 }
 
 [data-theme="dark"] {
@@ -37,10 +38,22 @@
     --slot-hover-bg: #1e293b;
     --slot-center-hover-bg: rgba(96, 165, 250, 0.4);
     --interactive-cell-hover: rgba(96, 165, 250, 0.1);
+    --bg-grid: #366db985;
 }
 
 body {
     background-color: var(--bg-color);
     color: var(--text-primary);
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sub-text {
+    font-size: .95rem;
+    color: var(--text-secondary); 
+}
+
+.sub-heading {
+    font-size: 1.35rem;
+    color: var(--text-primary);
+    margin-bottom: .5rem;
 }
