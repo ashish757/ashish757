@@ -1,5 +1,3 @@
-# Hi there👋, I'm Ashish
-
 ![Profile Views](https://komarev.com/ghpvc/?username=ashish757&color=blue)
 
 <!--
@@ -10,8 +8,20 @@
 🧠 Learning: [What you're currently learning]  
 📫 Reach me at: ashishrajsingh75@gmail.com  
 🌐 Portfolio: [Link to your portfolio or blog]/
-
 -->
+# Hi, I'm Ashish 👋
+
+I am a backend and full-stack software engineer focused on designing robust API architectures, scalable microservices, and high-performance applications. I combine a strong foundation in algorithmic problem-solving with modern backend environments to build efficient developer tools and platforms.
+
+### 💻 Core Tech Stack
+* **Languages:** TypeScript, C++, Python, JavaScript
+* **Backend & Databases:** NestJS, Express (MERN), PostgreSQL, Redis, Prisma
+
+### 📫 Connect With Me
+* [LinkedIn](https://www.linkedin.com/in/ashish757/)
+* [Codeforces Profile](https://codeforces.com/profile/Abnormality)
+* [Email](mailto:ashishrajsingh75@gmail.com)
+  
 <!--
 ## 🛠️ Languages and Tools
 
@@ -30,14 +40,6 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ashish757&layout=compact&theme=radical)
 
 --->
-
-- 🔭 I love contributing to open source projects
-- 🌱 Always curious about new tech
-- 🧩 Problem solving is my jam
-- 🎮 Gamer in free time
-
-
-
 
 [ashish757](https://github.com/ashish757)
 
